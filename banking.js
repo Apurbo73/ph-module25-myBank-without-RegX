@@ -5,7 +5,7 @@
     
   //get amount depositted
 const depositInput= document.getElementById('Deposit-input');
-const newDepositAmount =depositInput.value;
+const newDepositAmount = depositInput.value;
 if(newDepositAmount.length==0)
 {
     alert('Enter amount to deposit');
